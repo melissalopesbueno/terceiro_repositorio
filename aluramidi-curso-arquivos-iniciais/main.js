@@ -18,5 +18,20 @@ tecla.onclick = function () {
    tocaSom(idAudio);
 }
 
+tecla.onkeydown = function (evento) {
+
+   console.log (evento)
+
+   if ('Espaço'){
+          tecla.classList.add('ativa');
+   }
+
+}
+
+ tecla.onkeyup = function () {
+   tecla.classList.remove('ativa');
+
+ }
+
 }
 
