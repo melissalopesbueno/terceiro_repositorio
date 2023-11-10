@@ -9,6 +9,11 @@
 body {
   align-items: center;
   background: linear-gradient(45deg, #a7cfdf 0%,#23538a 100%);
+  background-color: #FFA500; /* Cor de fundo */
+  background-image: url(); /* Imagem de fundo */
+  background-repeat: no-repeat; /* Evitar repetição da imagem */
+  background-size: cover; /* Redimensionar a imagem para cobrir o elemento */
+  background-position: center; /* Posição do fundo no centro */
   display: flex;
   justify-content: center;
   flex-direction: column;
